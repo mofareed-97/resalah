@@ -12,13 +12,6 @@ interface IProps {
   className?: string
 }
 
-// const sizes:IProps['size'] = {
-//   default: "w-10 h-10",
-//   sm: "w-12 h-12",
-//   md: "w-14 h-14",
-//   lg: "w-16 h-16",
-// }
-
 function AvatarUser({ url, name, email = null, className }: IProps) {
   const initial = name?.charAt(0)
   const { members } = useActiveList()

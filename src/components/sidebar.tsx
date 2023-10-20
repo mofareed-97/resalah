@@ -4,7 +4,7 @@ import React from "react"
 import Link from "next/link"
 import { ConversationType } from "@/types"
 import { User } from "@prisma/client"
-import { BellIcon, PlusIcon } from "@radix-ui/react-icons"
+import { BellIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
 import useConversation from "@/hooks/useConversation"
